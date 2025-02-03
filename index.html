@@ -169,7 +169,23 @@ layout: null
         </div>
       </div>
       {% endfor %}
-      
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!--<h2 class="title is-3">News</h2>
+      <div class="content">
+        <ul>
+          {% for news in site.data.news %}
+          <li>
+            <b>{{ news.date }}</b>: {{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>-->
+
       <h2 class="title is-3">Workshops</h2>
 
       {% for publication in site.data.publications %}
@@ -236,6 +252,7 @@ layout: null
           </div>
         </div>
       </div>
+      {% endfor %}
     </div>
   </section>
 
