@@ -4,8 +4,8 @@
   description: "Our results showcase significant improvements in control speed while effectively controlling both the position and orientation of the end effector compared to previous quasi-static controllers for hybrid arms."
   project_page: "https://www.samhitamarri.com/hybrid-arm-pose-control/"
   github: samhita-m/hybrid_arm_dynamic_control
-  image: animation_v6.pdf
-  image_mouseover:
+  image: JMR_Animation.png
+  image_mouseover: JMR_video.mp4
   authors:
     - kfkoe2
     - marri2
@@ -43,7 +43,6 @@
   github: jrcuaranv/nbv_planning
   arxiv: 2412.10515
   image: reconstructions_v4.png
-  image_mouseover: ICRA25_Semantic.mp4
   authors:
     - jrc9
     - ksa5
