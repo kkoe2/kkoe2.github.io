@@ -23,7 +23,7 @@
   description: "We propose a novel codesigned framework incorporating a global detection camera and a local eye-in-hand camera that demonstrates precise localization of small fruits via closed-loop visual feedback and reliable error handling."
   arxiv: 2501.19395
   image: system_a_9.png
-  image_mouseover: ICRA25_4153_VI_i.mp4
+  image_mouseover: ICRA25_UIE.mp4
   authors:
     - kfkoe2
     - pks11
@@ -43,7 +43,7 @@
   github: jrcuaranv/nbv_planning
   arxiv: 2412.10515
   image: reconstructions_v4.png
-  image_mouseover: 
+  image_mouseover: ICRA25_Semantic.mkv
   authors:
     - jrc9
     - ksa5
