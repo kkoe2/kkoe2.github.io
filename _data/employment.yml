@@ -1,29 +1,29 @@
 - company: University of Illinois
-  description: Teaching Assistant. Facilitated classrooms of 150+ students to collaboratively solve machine problems.
+  description: Data Structures Teaching Assistant
   dates: "Aug 2021 - Dec 2021, Jan 2025 - May 2025"
   location: Urbana-Champaign, IL
 
 - company: Campus Crusades for Christ
-  description: Short Term International Mission Trip Team Leader. Led team of 6 to bridge cultural and language barriers to clearly and effectively communicate with locals.
+  description: Short Term International Mission Trip Team Leader
   dates: "May 2019 - July 2021"
 
 - company: GE Aviation
-  description: Digital Engineering Operations Development Intern. Used JavaScript to filter data to create modular graph representations for customized user applications. Designed knowledge sharing ecosystem for engineering project management and product development processes. Redesigned connector interface for the Boeing 787 common core system fiber optic test saving $40k/year.
+  description: Digital Engineering Operations Development Intern.
   dates: "May 2018 - Aug 2018"
   location: Grand Rapids, MI
 
 - company: GE Aviation
-  description: F110 Military Jet Engine NPI Intern. Developed dimensional inspections and trained employees saving ~$90k/year. Created an integrated VB.NET web tool to track engine shop progress and trained customer team to leverage its utility.
+  description: F110 Military Jet Engine NPI Intern
   dates: "June 2017 - Aug 2017"
   location: Strother, KS
 
 - company: GE Aviation
-  description: GP7200 Commercial Jet Engine Product Line Intern. Empowered others to have a vision for automation and productivity by teaching an Advanced Microsoft Excel VBA Course. Audited GE repair vendors and automated a data visualization report using VBA for leadership to make decisions.
+  description: GP7200 Commercial Jet Engine Product Line Intern
   dates: "May 2016 - Aug 2016"
   location: Cincinnati, OH 
 
 - company: Purdue University
   description: >-
-    Teaching Assistant. Developed and integrated camera systems software for interfacing with student final projects.
+    First Year Engineering Honors Teaching Assistant
   dates: "August 2016 - May 2017"
   location: West Lafayette, IN
