@@ -23,7 +23,10 @@ name: Kendall Koe
 position: PhD Candidate
 email: kfkoe2@illinois.edu
 description: >-
-  I am a researcher in Robotics. 
+  I am a PhD Candidate in the [Siebel School of Computing and Data Science](https://siebelschool.illinois.edu/) 
+  at the [University of Illinois Urbana-Champaign](https://illinois.edu/). I am advised by [Dr. Girish Chowdhary](https://ece.illinois.edu/about/directory/faculty/girishc)
+  in the [Distributed Autonomous Systems Laboratory](http://daslab.illinois.edu/) (DASLAB). I also collaborate with researchers in the [Monolithic Systems Lab](https://monolithicsystemslab.ise.illinois.edu/)
+  as well as with researchers at [Iowa State University](https://www.iastate.edu/) as a part of the [COntext-Aware LEarning for Sustainable CybEr-agricultural](https://sites.google.com/view/coalescepreview/home?) (COALESCE) program.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kendallkoe.com" # the base hostname & protocol for your site, e.g. http://example.com
