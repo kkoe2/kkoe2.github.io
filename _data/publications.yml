@@ -20,7 +20,7 @@
 
 - id: icra_UIE
   title: "Precision Harvesting in Cluttered Environments: Integrating End Effector Design with Dual Camera Perception"
-  venue: ICRA, 2025
+  venue: <a href="https://2025.ieee-icra.org/">ICRA, 2025</a>
   description: "We propose a novel codesigned framework incorporating a global detection camera and a local eye-in-hand camera that demonstrates precise localization of small fruits via closed-loop visual feedback and reliable error handling."
   arxiv: 2501.19395
   image: system_a_9.png
@@ -39,7 +39,7 @@
 
 - id: icra_semantic_mapping
   title: "Active Semantic Mapping with Mobile Manipulator in Horticultural Environments"
-  venue: ICRA, 2025
+  venue: <a href="https://2025.ieee-icra.org/">ICRA, 2025</a>
   description: "We introduce an efficient and scalable approach for active semantic mapping in horticultural environments, employing a mobile robot manipulator equipped with an RGB-D camera."
   github: jrcuaranv/nbv_planning
   arxiv: 2412.10515
