@@ -208,16 +208,20 @@ layout: null
             <h3 class="workshop-title"><a href="{{ workshop.project_page }}">{{ workshop.title }}</a></h3>
             <div class="workshop-authors">
               {% for author_id in workshop.authors %}
-              {% assign author = site.data.authors[author_id] %}
-              <span class="author-block {% if author.is_me %}author-me{% endif %}">
-                {% if author.is_me %}
-                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
-                endif %}
-                {% else %}
-                <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
-                  }}</a>{% if forloop.last == false %},{% endif %}
-                {% endif %}
-              </span>
+                {% assign author = site.data.authors[author_id] %}
+                <span class="author-block {% if author.is_me %}author-me{% endif %}">
+                  {% if author.is_me %}
+                    {{ author.first_name }} {{ author.middle_name }} {{ author.last_name }}
+                    {% if forloop.last == false %},{% endif %}
+                  {% else %}
+                    {% if author.website %}
+                      <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name }}</a>
+                    {% else %}
+                      {{ author.first_name }} {{ author.middle_name }} {{ author.last_name }}
+                    {% endif %}
+                    {% if forloop.last == false %},{% endif %}
+                  {% endif %}
+                </span>
               {% endfor %}
             </div>
             <div class="workshop-venue">
@@ -247,7 +251,7 @@ layout: null
                 <span>Code</span>
               </a>
               {% endif %}
-            </div>-->
+            </div>
             <!--/ workshop Links. -->
           </div>
         </div>
