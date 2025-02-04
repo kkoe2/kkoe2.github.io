@@ -101,11 +101,16 @@ layout: null
             <br />
             {{ job.location }}
           </div>
-          <ul>
-              {% for item in job.description %}
-                <li>{{ item }}</li>
-              {% endfor %}
-          </ul>
+          <!-- Full width for description list -->
+            <div class="columns">
+              <div class="column is-full">
+                <ul>
+                  {% for item in event.description %}
+                    <li>{{ item }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
         </div>
         {% endfor %}
 
