@@ -94,18 +94,18 @@ layout: null
         <div class="columns">
           <div class="column is-three-fifths">
             <b>{{ job.company }}</b><br />
-            <b>{{ job.title }}</b><br />
-            <ul>
-                {% for item in job.description %}
-                  <li>{{ item }}</li>
-                {% endfor %}
-              </ul>
+            <b>&emsp{{ job.title }}</b><br />
           </div>
           <div class="column is-two-fifths has-text-right">
             {{ job.dates }}
             <br />
             {{ job.location }}
           </div>
+          <ul>
+                {% for item in job.description %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
         </div>
         {% endfor %}
 
