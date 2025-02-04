@@ -1,14 +1,17 @@
 - name: University of Illinois
   description: >-
     PhD Candidate in <a href="https://siebelschool.illinois.edu/">Computer Science</a>, advised by <a href="https://ece.illinois.edu/about/directory/faculty/girishc">Girish Chowdhary</a>
+  gpa: 4.00
   dates: Fall 2021 - Present
 
 - name: Purdue University
   description: >-
-    B.S. in <a href="https://www.cs.purdue.edu/">Computer Science</a>
+    B.S. in <a href="https://www.cs.purdue.edu/">Computer Science</a> with Highest Distinction
+  gpa: 3.98
   dates: Fall 2015 - Spring 2019
 
 - name: Purdue University
   description: >-
-    B.S. in <a href="https://engineering.purdue.edu/ME">Mechanical Engineering</a>
+    B.S. in <a href="https://engineering.purdue.edu/ME">Mechanical Engineering</a> with Highest Distinction
+  gpa: 3.98
   dates: Fall 2015 - Spring 2019
