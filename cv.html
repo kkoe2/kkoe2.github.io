@@ -102,31 +102,41 @@ layout: null
             {{ job.location }}
           </div>
           <ul>
-                {% for item in job.description %}
-                  <li>{{ item }}</li>
-                {% endfor %}
-            </ul>
+              {% for item in job.description %}
+                <li>{{ item }}</li>
+              {% endfor %}
+          </ul>
         </div>
         {% endfor %}
 
         <h2>Outreach</h2>
 
-        {% for event in site.data.outreach %}
-          <div class="columns">
-            <div class="column is-three-fifths">
-              <b>{{ event.company }}</b><br />
+          {% for event in site.data.outreach %}
+            <div class="columns">
+              <!-- Left column: Company name -->
+              <div class="column is-three-fifths">
+                <b>{{ event.company }}</b><br />
+              </div>
               
-              <ul>
-                {% for item in event.description %}
-                  <li>{{ item }}</li>
-                {% endfor %}
-              </ul>
+              <!-- Right column: Dates -->
+              <div class="column is-two-fifths has-text-right">
+                <p>{{ event.dates }}</p>
+              </div>
             </div>
-            <div class="column is-two-fifths has-text-right">
-              <p>{{ event.dates }}</p>
+
+            <!-- Full width for description list -->
+            <div class="columns">
+              <div class="column is-full">
+                <ul>
+                  {% for item in event.description %}
+                    <li>{{ item }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
             </div>
-          </div>
-        {% endfor %}
+
+          {% endfor %}
+
 
 
         <h2>Publications</h2>
