@@ -100,13 +100,12 @@ layout: null
               
               <!-- Right column: Dates -->
               <div class="column is-two-fifths has-text-right">
-                {{ job.dates }}
-                {{ job.location}}
+                <p>{{ job.dates }}</p>
+                <p>{{ job.location}}</p>
               </div>
-            </div>
+            
 
             <!-- Full width for description list -->
-            <div class="columns">
               <div class="column is-full">
                 <ul>
                   {% for item in job.description %}
@@ -131,10 +130,8 @@ layout: null
               <div class="column is-two-fifths has-text-right">
                 {{ event.dates }}
               </div>
-            </div>
-
+           
             <!-- Full width for description list -->
-            <div class="columns">
               <div class="column is-full">
                 <ul>
                   {% for item in event.description %}
