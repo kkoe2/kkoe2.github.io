@@ -1,34 +1,33 @@
 - company: University of Illinois
-  description: Data Structures Teaching Assistant
+  title: Data Structures Teaching Assistant
   dates: "Aug 2021 - Dec 2021 | Jan 2025 - Present"
   location: Urbana-Champaign, IL
 
 - company: University of Illinois
-  description: Engineering Teaching and Leadership Course Assistant
+  title: Engineering Teaching and Leadership Course Assistant
   dates: "Jan 2025 - Present"
   location: Urbana-Champaign, IL
 
 - company: Campus Crusades for Christ
-  description: Short Term International Mission Trip Team Leader
+  title: Short Term International Mission Trip Team Leader
   dates: "May 2019 - July 2021"
 
 - company: GE Aviation
-  description: Digital Engineering Operations Development Intern.
+  title: Digital Engineering Operations Development Intern.
   dates: "May 2018 - Aug 2018"
   location: Grand Rapids, MI
 
 - company: GE Aviation
-  description: F110 Military Jet Engine NPI Intern
+  title: F110 Military Jet Engine NPI Intern
   dates: "June 2017 - Aug 2017"
   location: Strother, KS
 
 - company: GE Aviation
-  description: GP7200 Commercial Jet Engine Product Line Intern
+  title: GP7200 Commercial Jet Engine Product Line Intern
   dates: "May 2016 - Aug 2016"
   location: Cincinnati, OH 
 
 - company: Purdue University
-  description: >-
-    First Year Engineering Honors Teaching Assistant
+  title: First Year Engineering Honors Teaching Assistant
   dates: "Aug 2016 - May 2017"
   location: West Lafayette, IN
