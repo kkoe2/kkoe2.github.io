@@ -108,11 +108,11 @@ layout: null
 
         {% for event in site.data.outreach %}
         <div class="columns">
-          <div class="column is-four-fifths">
+          <div class="column is-three-fifths">
             <b>{{ event.company }}</b><br />
             {{ event.description }}
           </div>
-          <div class="column is-one-fifths has-text-right">
+          <div class="column is-two-fifths has-text-right">
             {{ event.dates }}
             <br />
             {{ event.location }}
@@ -123,7 +123,7 @@ layout: null
         <h2>Publications</h2>
 
         {% for publication in site.data.publications %}
-        <div class="columns">
+        <div class="publication-block columns">
           <div class="column is-four-fifths">
             <a href="{{ publication.project_page }}"><b>{{ publication.title }}</b></a>
             <div class="publication-authors">
