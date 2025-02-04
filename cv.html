@@ -101,16 +101,17 @@ layout: null
             <br />
             {{ job.location }}
           </div>
+          <br />
           <!-- Full width for description list -->
-            <div class="columns">
-              <div class="column is-full">
-                <ul>
-                  {% for item in job.description %}
-                    <li>{{ item }}</li>
-                  {% endfor %}
-                </ul>
-              </div>
+          <div class="columns">
+            <div class="column is-full">
+              <ul>
+                {% for item in job.description %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
             </div>
+          </div>
         </div>
         {% endfor %}
 
@@ -120,7 +121,7 @@ layout: null
             <div class="columns">
               <!-- Left column: Company name -->
               <div class="column is-three-fifths">
-                <b>{{ event.company }}</b><br />
+                <b>{{ event.company }}</b>
               </div>
               
               <!-- Right column: Dates -->
