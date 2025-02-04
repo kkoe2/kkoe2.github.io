@@ -91,7 +91,7 @@ layout: null
         <h2>Employment</h2>
 
           {% for job in site.data.employment %}
-            <div class="columns">
+            <div class="columns" style="margin-bottom: 0; padding-bototm: 0;">
               <!-- Left column: Company name -->
               <div class="column is-three-fifths">
                 <b>{{ job.company }}</b> <br />
@@ -106,7 +106,7 @@ layout: null
             </div>
               
               <!-- Full width for description list -->
-            <div class=columns>
+            <div class=columns style="margin-top: 0; padding-top: 0;">
               <div class="column is-full">
                 <ul>
                   {% for item in job.description %}
