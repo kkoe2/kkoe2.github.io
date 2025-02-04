@@ -104,6 +104,22 @@ layout: null
         </div>
         {% endfor %}
 
+        <h2>Outreach</h2>
+
+        {% for job in site.data.outreach %}
+        <div class="columns">
+          <div class="column is-four-fifths">
+            <b>{{ outreach.company }}</b><br />
+            {{ outreach.description }}
+          </div>
+          <div class="column is-one-fifths has-text-right">
+            {{ outreach.dates }}
+            <br />
+            {{ outreach.location }}
+          </div>
+        </div>
+        {% endfor %}
+
         <h2>Publications</h2>
 
         {% for publication in site.data.publications %}
