@@ -105,15 +105,13 @@ layout: null
               </div>
             </div>
               
-              <!-- Full width for description list -->
-            <div class="columns">
-              <div class="column is-full">
-                <ul>
-                  {% for item in job.description %}
-                    <li>{{ item }}</li>
-                  {% endfor %}
-                </ul>
-              </div>
+            <!-- Full width for description list -->
+            <div class="column is-full">
+              <ul>
+                {% for item in job.description %}
+                  <li>{{ item }}</li>
+                {% endfor %}
+              </ul>
             </div>
           <br />
           {% endfor %}
