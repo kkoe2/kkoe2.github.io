@@ -23,6 +23,7 @@
   venue: <a href="https://2025.ieee-icra.org/">ICRA, 2025</a>
   description: "We propose a novel codesigned framework incorporating a global detection camera and a local eye-in-hand camera that demonstrates precise localization of small fruits via closed-loop visual feedback and reliable error handling."
   arxiv: 2501.19395
+  project_page: "https://kendallkoe.com/ICRA_UIE/"
   image: system_a_9.png
   image_mouseover: ICRA25_UIE.mp4
   authors:
