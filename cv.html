@@ -90,30 +90,34 @@ layout: null
 
         <h2>Employment</h2>
 
-        {% for job in site.data.employment %}
-        <div class="columns">
-          <div class="column is-three-fifths">
-            <b>{{ job.company }}</b><br />
-            <b>&nbsp;&nbsp;&nbsp;{{ job.title }}</b><br />
-          </div>
-          <div class="column is-two-fifths has-text-right">
-            {{ job.dates }}
-            <br />
-            {{ job.location }}
-          </div>
-          <br />
-          <!-- Full width for description list -->
-          <div class="columns">
-            <div class="column is-full">
-              <ul>
-                {% for item in job.description %}
-                  <li>{{ item }}</li>
-                {% endfor %}
-              </ul>
+          {% for job in site.data.employment %}
+            <div class="columns">
+              <!-- Left column: Company name -->
+              <div class="column is-three-fifths">
+                <b>{{ job.company }}</b>
+                <b>&nbsp;&nbsp;&nbsp;{{ job.title }}</b><br />
+              </div>
+              
+              <!-- Right column: Dates -->
+              <div class="column is-two-fifths has-text-right">
+                <p>{{ job.dates }}</p>
+                <br />
+                {{ job.location }}
+              </div>
             </div>
-          </div>
-        </div>
-        {% endfor %}
+
+            <!-- Full width for description list -->
+            <div class="columns">
+              <div class="column is-full">
+                <ul>
+                  {% for item in job.description %}
+                    <li>{{ item }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+
+          {% endfor %}
 
         <h2>Outreach</h2>
 
