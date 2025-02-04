@@ -94,7 +94,7 @@ layout: null
         <div class="columns">
           <div class="column is-three-fifths">
             <b>{{ job.company }}</b><br />
-            <b>&emsp{{ job.title }}</b><br />
+            <b>&nbsp;&nbsp;&nbsp;{{ job.title }}</b><br />
           </div>
           <div class="column is-two-fifths has-text-right">
             {{ job.dates }}
@@ -105,7 +105,7 @@ layout: null
             <div class="columns">
               <div class="column is-full">
                 <ul>
-                  {% for item in event.description %}
+                  {% for item in job.description %}
                     <li>{{ item }}</li>
                   {% endfor %}
                 </ul>
