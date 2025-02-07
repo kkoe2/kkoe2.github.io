@@ -3,7 +3,7 @@
   venue: ASME JMR, 2025
   description: "Our results showcase significant improvements in control speed while effectively controlling both the position and orientation of the end effector compared to previous quasi-static controllers for hybrid arms."
   project_page: "https://www.samhitamarri.com/hybrid-arm-pose-control/"
-  pdf: "https://asmedigitalcollection-asme-org.proxy2.library.illinois.edu/mechanismsrobotics/article/doi/10.1115/1.4067872/1212548/Learning-Based-Position-and-Orientation-Control-of"
+  pdf: jmr-24-1069
   github: samhita-m/hybrid_arm_dynamic_control
   image: JMR_Animation.png
   image_mouseover: JMR_video.mp4
