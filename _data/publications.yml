@@ -1,21 +1,21 @@
 - id: jmr_valens
- title: "Learning-Based Position and Orientation Control of a Hybrid Rigid-Soft Arm Manipulator"
- venue: ASME JMR, 2025
- description: "Our results showcase significant improvements in control speed while effectively controlling both the position and orientation of the end effector compared to previous quasi-static controllers for hybrid arms."
- project_page: "https://www.samhitamarri.com/hybrid-arm-pose-control/"
- github: samhita-m/hybrid_arm_dynamic_control
- image: JMR_Animation.png
- image_mouseover: JMR_video.mp4
- authors:
-   - kfkoe2
-   - marri2
-   - walt
-   - skk7
-   - uppalap2
-   - gkrishna
-   - girishc
- awards:
-   - "Journal Paper"
+  title: "Learning-Based Position and Orientation Control of a Hybrid Rigid-Soft Arm Manipulator"
+  venue: ASME JMR, 2025
+  description: "Our results showcase significant improvements in control speed while effectively controlling both the position and orientation of the end effector compared to previous quasi-static controllers for hybrid arms."
+  project_page: "https://www.samhitamarri.com/hybrid-arm-pose-control/"
+  github: samhita-m/hybrid_arm_dynamic_control
+  image: JMR_Animation.png
+  image_mouseover: JMR_video.mp4
+  authors:
+    - kfkoe2
+    - marri2
+    - walt
+    - skk7
+    - uppalap2
+    - gkrishna
+    - girishc
+  awards:
+    - "Journal Paper"
 
 - id: icra_UIE
   title: "Precision Harvesting in Cluttered Environments: Integrating End Effector Design with Dual Camera Perception"
