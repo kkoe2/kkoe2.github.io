@@ -1,23 +1,23 @@
-- id: ral_hybrid
-  title: "A Soft Touch for Hard Tasks: Vision-Guided Hybrid Manipulation in Cluttered Environments"
-  venue: RAL, 2025
-  description: "The presented system uses a vision-guided manipulation system for hybrid rigid-soft continuum arms, designed to operate in cluttered and unstructured environments. Leveraging 3D reconstruction and shape-informed path planning, the system facilitates precise object reaching while navigating obstacles."
-  project_page: "https://kendallkoe.com/Hybrid_Reaching/"
-  pdf: 
-  github: 
-  image: 
-  image_mouseover: 
-  authors:
-    - kfkoe2
-    - skk7
-    - jbwasse2
-    - marri2
-    - walt
-    - uppalap2
-    - gkrishna
-    - girishc
-  awards:
-    - "Journal Paper"
+#- id: ral_hybrid
+#  title: "A Soft Touch for Hard Tasks: Vision-Guided Hybrid Manipulation in Cluttered Environments"
+#  venue: RAL, 2025
+#  description: "The presented system uses a vision-guided manipulation system for hybrid rigid-soft continuum arms, designed to operate in cluttered and unstructured environments. Leveraging 3D reconstruction and shape-informed path planning, the system facilitates precise object reaching while navigating obstacles."
+#  project_page: "https://kendallkoe.com/Hybrid_Reaching/"
+#  pdf: 
+#  github: 
+#  image: 
+#  image_mouseover: 
+#  authors:
+#    - kfkoe2
+#    - skk7
+#    - jbwasse2
+#    - marri2
+#    - walt
+#    - uppalap2
+#    - gkrishna
+#    - girishc
+#  awards:
+#    - "Journal Paper"
 
 - id: jmr_valens
   title: "Learning-Based Position and Orientation Control of a Hybrid Rigid-Soft Arm Manipulator"
