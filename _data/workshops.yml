@@ -1,6 +1,6 @@
 - id: iros_ISU
   title: "Ultra-precision robotic pest control using deep reinforcement learning with conditional action trees"
-  venue: IROS, 2025
+  venue: IROS, 2023
   description: " This paper delves into the potential of deep reinforcement learning (RL) executed within a distinct environment characterized by a tree-structured hierarchical action space."
   arxiv: 
   image: Action_Tree.png
