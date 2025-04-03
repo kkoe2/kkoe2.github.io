@@ -1,8 +1,8 @@
 - name: University of Illinois
   description: >-
     <p> PhD Candidate in <a href="https://siebelschool.illinois.edu/">Computer Science</a>, advised by <a href="https://ece.illinois.edu/about/directory/faculty/girishc">Girish Chowdhary</a> <br>
-     - Graduate Teaching Certificate Recipient <br>
-     - Outreach Volunteer Certificate Recipient </p>
+     - <a href="https://citl.illinois.edu/citl-101/teaching-learning/teaching-certificates/graduate-teacher-certificate">Graduate Teaching Certificate Recipient</a> <br>
+     - <a href="pdfs/CertificateOfAchievement_KendallKoe.pdf" target="_blank">Outreach Volunteer Certificate Recipient </a> </p>
   gpa: "GPA: 4.00"
   dates: Fall 2021 - Present
 
