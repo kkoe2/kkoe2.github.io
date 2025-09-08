@@ -1,10 +1,19 @@
 - company: University of Illinois
+  title: Data Structures Instructor of Record
+  description:
+    - Recorded rigorous and interactive lectures 5 days a week for 12 weeks of a fully online course of 50 students 
+    - Developed novel and engaging assignments to encourage student collaboration and metacognition
+    - Trained and managed 9 undergraduates for exam development, office hours, website development, and plagiarism detection teams 
+  dates: "Summer 2025"
+  location: Urbana-Champaign, IL
+
+- company: University of Illinois
   title: Data Structures Teaching Assistant
   description:
     - Facilitated classrooms of 150+ students to collaboratively solve machine problems 
     - Creatively taught students the basics of data structures on a personal level 
     - Mentored 4 teams of 4 from conception to implementation of a final course project 
-  dates: "Aug 2021 - Dec 2021 | Jan 2025 - Present"
+  dates: "Aug 2021 - Dec 2021 | Jan 2025 - May 2025 | August 2025 - Present"
   location: Urbana-Champaign, IL
 
 - company: University of Illinois
