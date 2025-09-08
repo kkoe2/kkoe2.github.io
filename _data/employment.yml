@@ -7,6 +7,15 @@
   dates: "Summer 2025"
   location: Urbana-Champaign, IL
 
+- company: Educational Justice Project
+  title: Introductory Programming For-Credit Course Instructor
+  description:
+    - Lectured 17 incarcerated persons about the basics of python programming and excel spreadsheets
+    - Developed a PrairieLearn production server for learning management
+    - Interfaced with correctional facility personnel to comply with regulations while effectively teaching
+  dates: "Fall 2025"
+  location: Danville, IL
+
 - company: University of Illinois
   title: Data Structures Teaching Assistant
   description:
