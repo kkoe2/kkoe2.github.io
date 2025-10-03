@@ -34,13 +34,13 @@
   dates: "Jan 2025 - Present"
   location: Urbana-Champaign, IL
 
-- company: Campus Crusades for Christ
-  title: Short Term International Mission Trip Team Leader
-  description: 
-    - Bridged cultural and language barriers to clearly and effectively communicate with locals 
-    - Created strategic planning process to accomplish achievable goals in a timely manner 
-    - Led team of 6 with empathy as teammates faced work and personal challenges in new cultural environments 
-  dates: "May 2019 - July 2021"
+  #- company: Campus Crusades for Christ
+  #title: Short Term International Mission Trip Team Leader
+  #description: 
+  #  - Bridged cultural and language barriers to clearly and effectively communicate with locals 
+  #  - Created strategic planning process to accomplish achievable goals in a timely manner 
+  #  - Led team of 6 with empathy as teammates faced work and personal challenges in new cultural environments 
+  #dates: "May 2019 - July 2021"
 
 - company: GE Aviation
   title: Digital Engineering Operations Development Intern
